@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            padding-bottom: 100px; /* Ajuste para el pie de página fijo */
+        }
+        .section {
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            margin-bottom: 20px;
+        }
+        .button-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            border-radius: 8px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button-section h2 {
+            margin-bottom: 0;
+        }
+        .button-section .title {
+            text-align: center;
+            width: 50%;
+        }
+        .navbar-start {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero is-dark is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Cultura Digital II - Equipo 1
+                </h1>
+<a href="logo ilb.html"> <img src="logo ilb.png"></a>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#Descripción" class="navbar-item">Descripción</a>
+                <a href="#Trabajo 1" class="navbar-item">Trabajo 1</a>
+                <a href="#Trabajo 2" class="navbar-item">Trabajo 2</a>
+                <a href="#Trabajo 3" class="navbar-item">Trabajo 3</a>
+                <a href="#Trabajo 4" class="navbar-item">Trabajo 4</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="Descripción" class="section">
+            <h2 class="title section-title">Descripción</h2>
+            <p> Equipo: Ingrid Lendo, Gael Buelna, Pablo Zamora</p>
+        </section>
+        <section id="Trabajo 1" class="section">
+            <div class="button-section">
+                <a href="Trabajo 1.html"> <img src="ta1.png"></a>
+            </div>
+            <div class="content">
+                <p></p>
+                <a href="#Descripción" class="button is-info">Volver a Inicio</a>
+            </div>
+        </section>
+        <section id="Trabajo 2" class="section">
+            <div class="button-section">
+                <a href="Trabajo 2.html"> <img src="t2.png"></a>
+            </div>
+            <div class="content">
+                <p></p>
+                <a href="#Descripción" class="button is-info">Volver a Inicio</a>
+            </div>
+        </section>
+        <section id="Trabajo 3" class="section">
+            <div class="button-section">
+                <a href="Trabajo 3.html"> <img src="t3.png"></a>
+            </div>
+            <div class="content">
+                <p></p>
+                <p></p>
+                <a href="#Descripción" class="button is-info">Volver a Inicio</a>
+            </div>
+        </section>
+<section id="Trabajo 4" class="section">
+            <div class="button-section">
+                <a href="Trabajo 4.html"> <img src="t4.png"></a>
+            </div>
+            <div class="content">
+                <p></p>
+                <p></p>
+                <a href="#Descripción" class="button is-info">Volver a Inicio</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Derechos de autor &copy; 2024 Mi Sitio Web</p>
+        </div>
+    </footer>
+</body>
+</html>
